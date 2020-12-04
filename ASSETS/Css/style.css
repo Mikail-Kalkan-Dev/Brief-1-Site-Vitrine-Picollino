@@ -1,0 +1,117 @@
+body {
+  background-image: url(../images/fond.jpg);
+  background-repeat: repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  color: #020000;
+}
+
+/* --------------------------------------------SEPARATEUR ----------------------------------------------*/
+hr.separateur {
+  border: 3px solid #dfcb00;
+  border-radius: 5px;
+  opacity: 1;
+}
+/*-------------------------------------------- Font Face -------------------------------------------------------- */
+
+@font-face {
+  font-family: 'porcelaine';
+  src: url('../font/porcelaine/PORCELAI.TTF'),
+    url('../font/porcelaine/Porcelain400.ttf'),
+    url('../font/porcelaine/PSType1/PORCELAI.PFB');
+}
+@font-face {
+  font-family: 'Garamond-Bold';
+  src: url('../font/GaramondBold/GaramondBold.ttf');
+}
+
+/* FONT SIZE */
+.fSize5 {
+  font-size: 4em;
+}
+
+.fSize1 {
+  font-size: 0.8em;
+}
+
+* {
+  font-family: 'Garamond-Bold';
+}
+/* FONT COULOEUR */
+a,
+.navbar-light .navbar-nav .nav-link {
+  color: #020000;
+}
+/*-------------------------------------------- NAV BAR----------------------------------------------------------- */
+
+.navbar {
+  border-bottom: #dfcb00 3px solid;
+  padding: 0;
+}
+
+.porcelaineFont {
+  font-family: 'porcelaine';
+}
+
+.garamondFont {
+  font-family: 'Garamond-Bold';
+}
+
+/*-------------------------------------------- CAROUSEL----------------------------------------------------------- */
+.carousel-caption {
+  bottom: 40%;
+}
+
+svg {
+  color: black;
+}
+
+svg:hover {
+  color: white;
+  cursor: pointer;
+  border: #458deb 2px solid;
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+  opacity: 1;
+  bottom: -4%;
+}
+
+.bgnoir {
+  background-color: rgba(2, 0, 0, 0.575);
+}
+/* --------------------------------------------------------CARD--------------------------------------------- */
+
+#cardGamme {
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+}
+
+.card {
+  background: #fff;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.5s ease-out;
+}
+
+.card:hover {
+  box-shadow: 0 0 6px #458deb;
+}
+.ombre {
+  box-shadow: 0 0 20px 2px #000000;
+}
+
+/* ---------------------------------------------------ACORDEON------------------------------- */
+.accordion-button {
+  background-color: #dfcb00;
+}
+
+/* ---------------------------------------------------FOOTER--------------------------------------- */
+#footer {
+  position: relative;
+  bottom: 0;
+}
