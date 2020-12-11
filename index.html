@@ -20,11 +20,10 @@
     <!-- !!!!--------------------------------------!!!!_HEADER_!!!!-----------------------------------------!!!! -->
     <header>
       <nav class="navbar navbar-expand-lg fixed-top navbar-light bg-white">
-        <a class="navbar-brand" href="#">
+        <a class="navbar-brand lienBizard" href="#">
           <img
             src="ASSETS/images/logo.png"
-            height="100"
-            class="d-inline-block align-center"
+            class="d-inline-block align-center logo-test"
             alt="logo du site"
           />
         </a>
@@ -38,16 +37,16 @@
         <div class="collapse navbar-collapse" id="navbarMenu">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-              <a href="#" class="nav-link garamondFont fs-3">Accueil</a>
+              <a href="#" class="nav-link garamondFont fs-1">Accueil</a>
             </li>
             <li class="nav-item">
-              <a href="#gamme" class="nav-link garamondFont fs-3">Gammes</a>
+              <a href="#gamme" class="nav-link garamondFont fs-1">Gammes</a>
             </li>
             <li class="nav-item">
-              <a href="#histoir" class="nav-link garamondFont fs-3">Histoire</a>
+              <a href="#histoir" class="nav-link garamondFont fs-1">Histoire</a>
             </li>
             <li class="nav-item">
-              <a href="#footer" class="nav-link garamondFont fs-3">Contact</a>
+              <a href="#footer" class="nav-link garamondFont fs-1">Contact</a>
             </li>
           </ul>
         </div>
@@ -163,7 +162,7 @@
 
     <!-- !!!!--------------------------------------!!!!_CARD_!!!!-----------------------------------------!!!! -->
 
-    <div id="gamme" class="container mt-5">
+    <div id="gamme" class="container-fluid mt-5">
       <!-- $$------------------------CARD GAMMES-----------------------------$$ -->
       <div class="row">
         <p class="garamondFont fSize5">Nos Gammes</p>
@@ -175,10 +174,10 @@
       </div>
       <div
         id="cardGamme"
-        class="row row-cols-1 row-cols-md-4 row-cols-sm-2 g-4"
+        class="row row-cols-1 row-cols-md-4 row-cols-sm-2 g-4 mx-5"
       >
         <!-- ****CARD GAME 1**** -->
-        <div class="col fSize1">
+        <div class="col fSize1 p-3">
           <div class="card ombre">
             <img
               src="ASSETS/images/IMG1/card1.jpg"
@@ -807,16 +806,18 @@
       </div>
       <div
         id="cardGamme"
-        class="row row-cols-1 row-cols-md-3 row-cols-sm-1 g-4"
+        class="row row-cols-1 row-cols-md-3 row-cols-sm-1 g-4 border border-1"
       >
         <!-- ****CARD ROND 1**** -->
-        <div class="col">
+        <div class="col p-5 border border-dark border-2">
           <div class="card h-100 bg-transparent text-center">
-            <img
-              src="ASSETS/images/IMG1/rond1.jpeg"
-              class="card-img-top rounded-circle"
-              alt="image de carte 1 fauteuille"
-            />
+            <div class="container p-5">
+              <img
+                src="ASSETS/images/IMG2/rond2.jpg"
+                class="card-img-top rounded-circle"
+                alt="image de carte 1 fauteuille"
+              />
+            </div>
             <div class="card-body">
               <h5 class="card-title fs-3">Giogio</h5>
               <p class="card-text fSize1">
@@ -831,13 +832,15 @@
         </div>
 
         <!-- ****CARD ROND 2**** -->
-        <div class="col">
+        <div class="col p-5 border border-dark border-2">
           <div class="card h-100 bg-transparent text-center">
-            <img
-              src="ASSETS/images/IMG2/rond2.jpg"
-              class="card-img-top rounded-circle"
-              alt="image de carte 1 fauteuille"
-            />
+            <div class="container p-5">
+              <img
+                src="ASSETS/images/IMG1/rond1.jpeg"
+                class="card-img-top rounded-circle"
+                alt="image de carte 1 fauteuille"
+              />
+            </div>
             <div class="card-body">
               <h5 class="card-title fs-3">Luigi</h5>
               <p class="card-text fSize1">
@@ -852,13 +855,15 @@
         </div>
 
         <!-- ****CARD ROND 3**** -->
-        <div class="col">
+        <div class="col p-5 border border-dark border-2"">
           <div class="card h-100 text-center bg-transparent">
-            <img
-              src="ASSETS/images/IMG2/rond3.png"
-              class="card-img-top rounded-circle"
-              alt="image de carte 1 fauteuille"
-            />
+            <div class="container p-5">
+              <img
+                src="ASSETS/images/IMG2/rond3.png"
+                class="card-img-top rounded-circle"
+                alt="image de carte 1 fauteuille"
+              />
+            </div>
             <div class="card-body">
               <h5 class="card-title fs-3">Giogio Jr.</h5>
               <p class="card-text fSize1">
@@ -1027,16 +1032,19 @@
     <!-- ------------------------------FOOTER------------------------------------------ -->
 
     <footer id="footer" class="bg-white mt-5 mb-0">
-      <div class="container">
+      <div class="container-fluid">
         <div class="row row-cols-1 row-cols-md-3 row-cols-sm-1 g-4">
           <div class="col">
             <div class="card h-100">
-              <img
-                src="ASSETS/images/logo.png"
-                width="100%"
-                class="d-inline-block align-center"
-                alt="logo du site"
-              />
+              
+              <a class="navbar-brand" href="#">
+                <img
+                  src="ASSETS/images/logo.png"
+                  height="100"
+                  class="d-inline-block align-center"
+                  alt="logo du site"
+                />
+              </a>
               <div class="card-body">
                 <p class="card-text fs-4">55, Rue de Vincennes</p>
                 <p class="card-text fs-4">93100 Montreuil</p>
