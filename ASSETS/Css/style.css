@@ -45,12 +45,17 @@ a,
   color: #020000;
 }
 /*-------------------------------------------- NAV BAR----------------------------------------------------------- */
-.logo-test {
-  height: 19vh;
-  border: #2f9234 3px solid;
+.testImg {
+  object-fit: contain;
+}
+.lienBizard2 {
+  width: 40%;
 }
 .lienBizard {
-  border: #458deb 3px solid;
+  border: #dfcb00 3px solid;
+}
+.lienBizard > img {
+  width: 100%;
 }
 
 @media screen and (max-width: 640px) {
